@@ -1,0 +1,14 @@
+
+	public abstract class Computer {
+		
+		public abstract String getRAM();
+		public abstract String getHDD();
+		public abstract String getCPU();
+		
+
+		public String add(){
+			return "RAM = "+this.getRAM()+", HDD = "+this.getHDD()+", CPU = "+this.getCPU();
+		}
+	}
+
+
